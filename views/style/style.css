@@ -1,96 +1,69 @@
-html {
-	background-color: #444;
-	padding: 0 1em;
-	height: 20em;
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
-body {
-	background-color: #FFF;
-	font-family: 'Lato', sans-serif;
-	margin: 0px auto;
-	max-width: 20cm;
-	height: 20cm;
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
-#section-header {
-	position: absolute;
-	top: 0px;
-	right: center;
-	width: 20cm;
-	height: 6cm;
-	background-color: #fc7a70;
-	color: #fff;
-	text-align: center;
-	font-size: 20px;
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
-.intro {
-	position: absolute;
-  	top: 30px;
-  	right: 80px;
-  	line-height: 40px;
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
-.intro .name {
-	border-top: 2px solid;
-	border-bottom: 2px solid;
+
+.active {
+  background-color: #717171;
 }
-#section-contact {
-	position: relative;
-	top: 30px;
-	left: 24px;
-	background-color: grey;
-	width: 7cm;
-	height: 17cm;
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
 }
-#section-contact .logo{
-	height: 200px;
-  	width: 200px;
-  	border-radius: 100%;
-  	margin: 30px auto;
-  	background: url('http://res.cloudinary.com/dms7fkswr/image/upload/c_scale,w_250/v1514825567/422368_439547839444062_48108192_n.png_yug4td.jpg');
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
-#section-contact .big{
-	color: white;
-	margin: 0px auto;
-	border-bottom: 1px solid;
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
-#section-contact .section .title{
-	color: white;
-	margin-left: 10px;
-	margin: 15px;
-}
-#section-body .section {
-	margin: 0 0 30px 0;
-	width: 11cm;
-}
-.wrapper {
-	padding: 0px;
-}
-.fa {
-	margin-right: 15px;
-}
-.wrapper .title {
-	position: relative;
-	top: -420px;
-	left: 320px;
-	color: #fc7a70;
-	font-size: 1.3em;
-	font-variant: small-caps;
-	font-weight: bold;
-}
-.wrapper .introduce {
-	position: relative;
-	top: -420px;
-	left: 320px;
-	color: black;
-	font-family: monospace;
-	font-size: 17px;
-	background-color: #FFE4E1;
-}
-#section-footer{
-	position: relative;
-	top: -350px;
-	background-color: #fc7a70;
-}
-#section-footer .text{
-	color: white;
-	text-align: center;
-	font-family: Verdana;
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }
