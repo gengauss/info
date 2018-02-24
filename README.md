@@ -1,2 +1,2 @@
-# info
-advanced cv
+# Hubte
+Hubte project
