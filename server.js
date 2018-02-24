@@ -17,5 +17,5 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use('/',index);
 
 app.listen(process.env.PORT || 3000, () => {
-	console.log("Info started!");
+	console.log("Hubte started!");
 });

@@ -57,7 +57,7 @@
   }, 300);
 
   // Magnific popup calls
-  $('.popup-gallery').magnificPopup({
+  /*$('.popup-gallery').magnificPopup({
     delegate: 'a',
     type: 'image',
     tLoading: 'Loading image #%curr%...',
@@ -70,6 +70,6 @@
     image: {
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
-  });
+  });*/
 
 })(jQuery); // End of use strict

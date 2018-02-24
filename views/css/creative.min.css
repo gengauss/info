@@ -181,7 +181,8 @@ header.masthead h1{
 	max-width:650px;
 	margin:0 auto
 	}
-.portfolio-box .portfolio-box-caption{
+.portfolio-box 
+.portfolio-box-caption{
 	position:absolute;
 	bottom:0;
 	display:block;
@@ -195,27 +196,50 @@ header.masthead h1{
 	-moz-transition:all .2s;
 	transition:all .2s
 	}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content{
+.portfolio-box 
+.portfolio-box-caption 
+.portfolio-box-caption-content{
 	position:absolute;
 	top:50%;
 	width:100%;
 	transform:translateY(-50%);
 	text-align:center
 	}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name{
+.portfolio-box 
+.portfolio-box-caption 
+.portfolio-box-caption-content 
+.project-category,
+.portfolio-box 
+.portfolio-box-caption 
+.portfolio-box-caption-content 
+.project-name{
 	padding:0 15px;
 	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif
 	}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category{
+.portfolio-box 
+.portfolio-box-caption 
+.portfolio-box-caption-content 
+.project-category{
 	font-size:14px;
 	font-weight:600;
 	text-transform:uppercase
 	}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name{font-size:18px}
-.portfolio-box:hover .portfolio-box-caption{opacity:1}.portfolio-box:focus{outline:0}
+.portfolio-box 
+.portfolio-box-caption 
+.portfolio-box-caption-content 
+.project-name{font-size:18px}
+.portfolio-box:hover 
+.portfolio-box-caption{opacity:1}
+.portfolio-box:focus{outline:0}
 @media (min-width:768px){
-	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category{font-size:16px}
-	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name{font-size:22px}
+	.portfolio-box 
+	.portfolio-box-caption 
+	.portfolio-box-caption-content 
+	.project-category{font-size:16px}
+	.portfolio-box 
+	.portfolio-box-caption 
+	.portfolio-box-caption-content 
+	.project-name{font-size:22px}
 	}
 	.text-primary{color:#85e0e0!important}
 	.btn{
