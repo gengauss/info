@@ -39,7 +39,7 @@ body {
 }
 .crossfade > figure:nth-child(5) {
   animation-delay: 18s;
-  background-image: url('../img/006.jpg');
+  background-image: url('../img/004.JPG');
 }
 
 @keyframes imageAnimation {
