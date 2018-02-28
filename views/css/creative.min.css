@@ -77,7 +77,7 @@ img::-moz-selection{
 	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif
 	}
 #mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{
-	color: #33cccc
+	color: #33cccc;
 	}
 #mainNav .navbar-nav>li.nav-item>a.nav-link,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus{
 	font-size:.9rem;
